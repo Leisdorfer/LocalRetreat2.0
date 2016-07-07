@@ -10,15 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var join: UIButton!
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        join.layer.borderColor = UIColor.redColor().CGColor
+        join.layer.borderWidth = 1
+        join.layer.cornerRadius = 5
     }
+  
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 
 
 }

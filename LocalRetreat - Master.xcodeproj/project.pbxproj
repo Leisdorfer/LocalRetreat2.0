@@ -12,6 +12,7 @@
 		16510D881D2AA6F2007FF058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16510D861D2AA6F2007FF058 /* Main.storyboard */; };
 		16510D8A1D2AA6F2007FF058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16510D891D2AA6F2007FF058 /* Assets.xcassets */; };
 		16510D8D1D2AA6F2007FF058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16510D8B1D2AA6F2007FF058 /* LaunchScreen.storyboard */; };
+		1658CB891D2DF7F600B111EA /* userInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1658CB881D2DF7F600B111EA /* userInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		16510D891D2AA6F2007FF058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16510D8C1D2AA6F2007FF058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16510D8E1D2AA6F2007FF058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1658CB881D2DF7F600B111EA /* userInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = userInfoViewController.swift; path = ../userInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				16510D821D2AA6F2007FF058 /* AppDelegate.swift */,
 				16510D841D2AA6F2007FF058 /* ViewController.swift */,
+				1658CB881D2DF7F600B111EA /* userInfoViewController.swift */,
 				16510D861D2AA6F2007FF058 /* Main.storyboard */,
 				16510D891D2AA6F2007FF058 /* Assets.xcassets */,
 				16510D8B1D2AA6F2007FF058 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				16510D851D2AA6F2007FF058 /* ViewController.swift in Sources */,
 				16510D831D2AA6F2007FF058 /* AppDelegate.swift in Sources */,
+				1658CB891D2DF7F600B111EA /* userInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +291,7 @@
 				16510D931D2AA6F2007FF058 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
